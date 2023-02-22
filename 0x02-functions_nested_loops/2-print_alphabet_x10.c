@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main - check the code.
@@ -13,8 +14,8 @@ void print_alphabet_x10(void)
 
   for (x  = 0; x <= 0; x++)
     {
-      for (y = 'a; y<= "z"; y++)
-	_putchar(y);
+      for (y = 'a'; y <= "z"; y++)
+      _putchar(y);
       _putchar('\n');
     }
 }
