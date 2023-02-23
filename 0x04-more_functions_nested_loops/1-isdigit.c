@@ -1,8 +1,8 @@
-i#include "main.h"
+#include "main.h"
 
 /**
- * _isdigit - check if numbers are 0 - 9
- * @c: char to be checked
+ * _isdigit - check if numbers fall between 0 - 9
+ * @c: characters that are to be checked
  *
  * Return: 0 or 1
  */
@@ -14,4 +14,3 @@ int _isdigit(int c)
 	else
 		return (0);
 }
-
