@@ -3,7 +3,6 @@
 * swap_int - swaps the values of two integers
  * @a: integer 1 to swap
  * @b: integer 2 to swap
- * @x: independent variable
  */
 
 void swap_int(int *a, int *b)
