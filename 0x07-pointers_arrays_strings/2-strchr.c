@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_strchr – Entry point
+ * _strchr - Entry point
  * @s: input 1
  * @c: input 2
  * Return: Always 0 (Success)
@@ -16,4 +16,3 @@ char *_strchr(char *s, char c)
 	}
 	return (0);
 }
-
