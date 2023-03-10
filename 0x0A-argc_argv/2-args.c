@@ -12,7 +12,7 @@ int main(int argc, char **argv[])
 {
 for (int x = 0; x < argc, x++)
 {
-print("%d/n", argv[x]);
+print("%d\n", argv[x]);
 }
 return (0);
 }
