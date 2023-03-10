@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include "main.h"
+
+/**
+* main - program that prints the number of arguments passed into it
+* @argc: the nymber of arguments
+* @argv: the arrray full of arguments
+* Return: 0 for success
+*/
+
+int main(char *argv[], int argc)
+{
+printf("%d/n", argc);
+return (0);
+}
