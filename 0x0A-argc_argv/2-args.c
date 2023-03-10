@@ -8,7 +8,7 @@
  * Return: always return 0 for success
  */
 
-int main(char *argv[], int argc]
+int main(int argc, char **argv[])
 {
 for (int x = 0; x < argc, x++)
 {
