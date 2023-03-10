@@ -8,8 +8,9 @@
 * Return: 0 for success
 */
 
-int main(char *argv[], int argc)
+int main(int argc, char *argv[])
 {
+(void) argv; /*tells the program to ignore argv*/
 printf("%d/n", argc);
 return (0);
 }
