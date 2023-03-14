@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include "main.h>
+#include "main.h"
+#include <stdlib.h>
 
 /*
 * _strdup - returns pointer to newly allocated space
@@ -14,13 +15,14 @@ int y = 0;
 int z = 0;
 
 if(str == 0)
-retun (NULL);
+return (NULL);
 
-while(str[y] != "\0")
+y = 0;
+while(str[y] != '\0')
 y++;
 
-x = malloc(sizeof(char) * (i + 1));
-if (a == NULL)
+x = malloc(sizeof(char) * (y + 1));
+if (x == NULL)
 return (NULL);
 
 for (z = 0; str[z]; z++)
