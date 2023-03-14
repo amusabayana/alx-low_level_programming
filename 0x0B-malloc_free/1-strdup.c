@@ -14,11 +14,11 @@ char *x;
 int y = 0;
 int z = 0;
 
-if(str == 0)
+if (str == 0)
 return (NULL);
 
 y = 0;
-while(str[y] != '\0')
+while (str[y] != '\0')
 y++;
 
 x = malloc(sizeof(char) * (y + 1));
