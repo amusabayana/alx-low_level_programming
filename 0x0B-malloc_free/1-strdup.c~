@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include "main.h>
+
+/*
+ * _strdup - returns pointer to ewly allocated space
+ * @str: char
+ * Retur: 0
+ */
+
+char *_strdup(char *str)
+{
+char *x;
+int y = 0;
+int z = 0;
+
+if(str == 0)
+retun (NULL);
+
+while(str[y] != "\0")
+y++;
+
+x = malloc(sizeof(char) * (i + 1));
+if (a == NULL)
+return (NULL);
+
+for (z = 0; str[z]; z++)
+x[z] = str[z];
+
+return (x);
